@@ -1,5 +1,6 @@
 'use client'
 import { Waitlist } from '@clerk/nextjs'
+
 import Link from 'next/link'
 
 import { motion } from 'framer-motion'
@@ -85,9 +86,9 @@ function ElegantShape({
   )
 }
 
-const badge = 'By Web Prodigies'
+const badge = 'By Chandan'
 const title1 = 'Welcome To'
-const title2 = 'Spotlight Premium'
+const title2 = 'Elyra'
 
 export default function HeroGeometric() {
   const fadeUpVariants = {
@@ -203,8 +204,7 @@ export default function HeroGeometric() {
             animate="visible"
           >
             <p className="text-base sm:text-lg md:text-xl text-white/40 mb-8 leading-relaxed font-light tracking-wide max-w-xl mx-auto px-4">
-              Crafting exceptional digital experiences through innovative design
-              and cutting-edge technology.
+              Built for scale, designed for performance — Elyra empowers teams to deliver impactful webinars with AI-powered engagement and conversion tools.
             </p>
             <div className="flex items-center justify-center flex-col">
               <Waitlist signInUrl="/sign-in" />
@@ -221,18 +221,14 @@ export default function HeroGeometric() {
             }}
           >
             <p className="text-muted-foreground/50">
-              This codebase is the property of Web Prodigies LLC and is intended
-              solely for customers who have legally obtained a copy of this
-              codebase. Unauthorized reproduction, distribution, or disclosure
-              of any part of this document is strictly prohibited. Web Prodigies
-              LLC. All rights reserved.
+              This project was developed as a mini project for our university course. It demonstrates how AI can be integrated into a SaaS-based webinar platform to improve user engagement and lead conversion. A detailed project report and the GitHub repository link are provided below.
             </p>
-            <Link href="https://webprodigies.com/store/collections/github-codebase">
+            <Link href="https://github.com/ChandanYdv0402/Elyra2">
               <Badge
                 variant="outline"
                 className="mt-4 text-lg text-primary"
               >
-                🔥Purchase the codebase by clicking here
+                GitHub Repository
               </Badge>
             </Link>
           </motion.div>
