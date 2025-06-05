@@ -207,7 +207,7 @@ export default function HeroGeometric() {
               Built for scale, designed for performance — Elyra empowers teams to deliver impactful webinars with AI-powered engagement and conversion tools.
             </p>
             <div className="flex items-center justify-center flex-col">
-              <Waitlist signInUrl="/sign-in" />
+              <SignIn />
             </div>
           </motion.div>
 
