@@ -1,5 +1,6 @@
 'use client'
 import { Waitlist } from '@clerk/nextjs'
+import { SignIn } from '@clerk/nextjs'
 
 import Link from 'next/link'
 
